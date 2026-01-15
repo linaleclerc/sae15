@@ -1,0 +1,9 @@
+
+Au début de la collecte, les données concernant les parkings voiture et les stations vélos étaient générées 
+par deux scripts différents, exécutés séparément. Cela signifie que les premiers jeux de données disponibles 
+dans les fichiers donnees_voiture.json et donnees_velo.json ne correspondent pas exactement aux mêmes timestamps.
+Par la suite, afin d’obtenir des mesures plus cohérentes et de faciliter l’analyse, les deux collectes ont été
+regroupées dans un seul script commun, générant les deux types de données au même moment. Cependant, les fichiers 
+finaux fournis contiennent encore les premières mesures issues des deux scripts séparés. Cela explique pourquoi 
+certains horodatages ne correspondent pas parfaitement entre les données voiture et vélo."
+  
